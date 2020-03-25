@@ -1,7 +1,6 @@
 requre 'pry'
 
 def generate_star_date
-  binding.pry
   (rand(100000) + 400000) / 10.0
 end
 
@@ -11,6 +10,7 @@ def state_log(star_date)
 end
 
 def crew
+  binding.pry
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
