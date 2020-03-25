@@ -10,11 +10,11 @@ def state_log(star_date)
 end
 
 def crew
-  binding.pry
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew (crew)
+  binding.pry
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
 
